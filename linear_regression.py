@@ -7,7 +7,7 @@ import csv
 X, Y = [], []
 
 # populate the coordinates with data from the csv file
-with open('data.csv', 'r') as csvfile:
+with open('data/data.csv', 'r') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         X.append(float(row[0]))
